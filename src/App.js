@@ -1,12 +1,10 @@
-import logo from './logo.svg';
+import HamburgerCounter from './HamburgerCounter';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      Hello
+      <HamburgerCounter />
     </div>
   );
 }
-
-export default App;
