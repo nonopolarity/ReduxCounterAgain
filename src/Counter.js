@@ -1,7 +1,11 @@
+import './Counter.css';
+
 export default function Counter({ count, inc, dec }) {
   return (
-    <div>
-      <button onClick={dec}>-</button> {count} <button onClick={inc}>+</button>
+    <div className="Counter">
+      <button onClick={dec}>-</button>
+      <span className="count">{count}</span>
+      <button onClick={inc}>+</button>
     </div>
   );
 }
